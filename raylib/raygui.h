@@ -347,7 +347,7 @@ typedef enum {
 
 // ComboBox
 typedef enum {
-    COMBO_BUTTON_WIDTH = 16,
+    COMBO_BUTTON_WIDTH = 18,
     COMBO_BUTTON_PADDING
 } GuiComboBoxProperty;
 
@@ -3163,7 +3163,7 @@ void GuiLoadStyleDefault(void)
     GuiSetStyle(SLIDER, SLIDER_PADDING, 1);
     GuiSetStyle(PROGRESSBAR, PROGRESS_PADDING, 1);
     GuiSetStyle(CHECKBOX, CHECK_PADDING, 1);
-    GuiSetStyle(COMBOBOX, COMBO_BUTTON_WIDTH, 30);
+    GuiSetStyle(COMBOBOX, COMBO_BUTTON_WIDTH, 80);
     GuiSetStyle(COMBOBOX, COMBO_BUTTON_PADDING, 2);
     GuiSetStyle(DROPDOWNBOX, ARROW_PADDING, 16);
     GuiSetStyle(DROPDOWNBOX, DROPDOWN_ITEMS_PADDING, 2);
